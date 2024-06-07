@@ -1,0 +1,108 @@
+
+  .container {
+    /* background-color: aqua; */
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .step {
+    margin-top: 5%;
+    color: rgba(251, 68, 7, 0.84);
+  }
+  h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    color: rgba(7, 7, 7, 0.728);
+  }
+  .dateset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 45px;
+    align-items: center;
+  }
+  .button {
+    font-size: 2rem;
+    font-weight: 80;
+    border-color: rgba(27, 26, 26, 0.468);
+    border-radius: 9px;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgba(250, 50, 50, 0.717);
+  }
+  
+  .date {
+    border-style: ridge;
+    /* background-color: #f3f3f3; */
+    border: 2px solid #ccc;
+    border-color: rgba(27, 26, 26, 0.468);
+    border-radius: 5px;
+    padding: 10px 12px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 30%;
+    box-sizing: border-box;
+  }
+  .submit {
+    padding-top: 50px;
+    margin-top: 10px;
+    display: inline-block;
+    /* Remove fixed padding values */
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 100px;
+    /* Remove fixed width */
+    /* width: 50%; */
+    display: flex;
+    align-items: stretch;
+    margin-left: 200px;
+    /* Make the button fill available space */
+    flex-grow: 1;
+}
+
+
+  
+  .dateset input::placeholder {
+    color: #aaa;
+  }
+  .but {
+    font-size: 1.05rem;
+    font-weight: 80;
+    border-color: rgba(28, 26, 26, 0.468);
+    border-radius: 9px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 49%;
+  }
+  .button:link,
+  .button:visited {
+    background-color: rgba(251, 68, 7, 0.84);
+    color: #fff;
+  }
+  .button:hover,
+  .button:active {
+    background-color: rgba(232, 64, 8, 0.84);
+    color: #fff;
+  }
+  .h2container {
+    text-align: center;
+  }
+  .countbutton {
+    display: inline-block;
+    padding-left: 50px;
+  }
+  
